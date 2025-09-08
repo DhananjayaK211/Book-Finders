@@ -16,6 +16,7 @@ A lightweight **Book Finder** web app built with React and Vite that searches th
 1. Install dependencies:
 ```
 npm install
+rm -rf node_modules package-lock.json
 ```
 2. Start development server:
 ```
@@ -24,12 +25,10 @@ npm run dev
 Open http://localhost:5173
 
 ## Deploy
-Build using `npm run build` and deploy the `dist` folder to any static host (Netlify, Vercel, Cloudflare Pages).
+Build using `npm run build` and deploy the `dist` folder to any static host (CodeSandbox).
 
 ## Notes
 - Uses the Open Library Search API: `https://openlibrary.org/search.json?title={title}`
 - This project was scaffolded for a take-home challenge. Customize as needed.
 
-## ChatGPT work link
-Include the link to the ChatGPT conversation you used while developing here.
 
